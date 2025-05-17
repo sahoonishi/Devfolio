@@ -1,3 +1,5 @@
+//--------------------------------- SLIDING LOGIC ---------------------------------------
+
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector(".category-cards");
   const arrows = document.querySelectorAll(".arrow");
@@ -34,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   updateDots(currentDot);
 });
+
+//------------------------------------- NAVBAR -------------------------------------
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const nav = document.querySelector(".nav");
 
@@ -66,6 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
 //       });
 //   })
 // });
+
+//--------------------------------------------- ACCORDION LOGIC ------------------------------------------
+
 
 document.querySelectorAll(".outer").forEach((box) => {
   box.addEventListener("click", function () {
